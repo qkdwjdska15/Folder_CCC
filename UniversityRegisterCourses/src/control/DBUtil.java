@@ -10,7 +10,7 @@ public class DBUtil {
 	public static Connection getConnection() throws Exception{
 		Class.forName(driver);
 		Connection con = DriverManager.getConnection(url,"scott","tiger");
-		System.out.println("DB ¿¬°á ¼º°ø");
+		System.out.println("DB ì—°ê²° ì„±ê³µ");
 		return con;
 	}
 }
