@@ -95,9 +95,9 @@ public class JoinDAO {
 					con.close();
 				}
 			} catch (SQLException e) {
-				// TODO: handle exception
 			}
 		}
+		return idOverlapResult;
 		
 	}
 }
